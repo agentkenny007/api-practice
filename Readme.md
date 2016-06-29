@@ -1,11 +1,5 @@
-## Install
+## API PRACTICE!
 
- Git clone it and run `npm install` in the project directory.
- 
-## Configure
+Clone of [commitrank homework repo](https://github.com/tiy-atl-js-june-2016/commitrank) with some practical edits/additions.
 
-Add a credentials.js file that exports a gh_token for Github API access.
-
-## Run
-
-Just say `gulp start`.
+Practice using the Github API to create gists and work with Github issues.
