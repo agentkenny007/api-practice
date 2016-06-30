@@ -3,13 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cool Project</title>
+    <title>API Practice</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <div class="container">
-      <p>Welcome to your life.</p>
       <p>Let us know your Github org.</p>
 
       <form class="org-form">
@@ -21,9 +20,16 @@
           <div class="team-selector">
           </div>
           <div class="form-field">
-              <input type="text" class="issue-title">
+              <input type="text" class="issue-title" placeholder="Issue title...">
           </div>
-          <textarea class="issue-writeup"></textarea>
+          <div class="form-field">
+              <input type="text" class="issue-repo" placeholder="Repo name...">
+          </div>
+          <div class="form-field">
+              <input type="text" class="issue-feels" placeholder="Issue mood...">
+          </div>
+          <div class="form-mood"></div>
+          <textarea class="issue-writeup" placeholder="Issue details..."></textarea>
           <button class="hack">Hack The Planet!!!</button>
       </form>
     </div>
